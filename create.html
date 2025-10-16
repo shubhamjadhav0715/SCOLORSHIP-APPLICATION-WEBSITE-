@@ -21,7 +21,13 @@
   </div>
 
   <script>
-    
+    const form = document.getElementById('registerForm');
+    const msg = document.getElementById('message');
+
+    form.addEventListener('submit', (e) => {
+      msg.textContent = "Submitting...";
+      msg.style.color = "#2b6cb0";
+    });
   </script>
   
 </body>
