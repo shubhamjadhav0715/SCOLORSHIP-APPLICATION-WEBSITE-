@@ -44,8 +44,46 @@
       color: #2b6cb0;
       margin-bottom: 25px;
     }
+      input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      transition: 0.3s;
+    }
 
-  
+    input:focus {
+      border-color: #2b6cb0;
+      box-shadow: 0 0 8px #2b6cb0;
+      outline: none;
+    }
+
+    button {
+      background: #2b6cb0;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 0;
+      width: 100%;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #1a4b80;
+      transform: scale(1.05);
+    }
+
+    .success {
+      color: green;
+      margin-top: 10px;
+      font-weight: bold;
+      animation: fadeIn 1s ease-in;
+    }
+
+    
   </style>
 <body>
   <div class="container">
